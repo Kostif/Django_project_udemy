@@ -1,6 +1,6 @@
 FROM python:3.9.19
 
-RUN pip install django
+RUN pip install django python-dotenv psycopg2-binary
 
 RUN groupadd -g 1000 kostif
 RUN useradd --uid 1000 --gid 1000 kostif

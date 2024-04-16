@@ -1,1 +1,3 @@
 elevate/db.sqlite3
+.env
+elevate/elevate/.env
